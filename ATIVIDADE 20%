@@ -10,7 +10,7 @@ INSERT INTO usuarios (nome, usuario, senha) VALUES ('claudio', 'clausouza9', '12
 INSERT INTO usuarios (nome, usuario, senha) VALUES ('pryscila', 'pri', '123456');
 FormLogin:
 using MySql.Data.MySqlClient;
-namespace Atividade13
+namespace Atividade12
 {
  public partial class FormLogin : Form
  {
@@ -60,7 +60,7 @@ usuario=@usuario AND senha=@senha";
 }
 FormMain:
 using System.Windows.Forms;
-namespace Atividade13
+namespace Atividade12
 {
  public partial class FormMain : Form
 
